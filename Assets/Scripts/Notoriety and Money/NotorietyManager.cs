@@ -74,18 +74,21 @@ public class NotorieteManager : MonoBehaviour
     {
         while (true)
         {
-            if (currentLevel < notorietyLevels.Length)
+            // Check if notoriety level is within the correct range (1 to 10)
+            if (currentLevel >= 0 && currentLevel < notorietyLevels.Length)
             {
-                money += notorietyLevels[currentLevel].moneyGain;
-                UpdateUI();
+                // Get the money gain based on the notoriety level (starting from level 1)
+                int moneyGain = notorietyLevels[currentLevel].moneyGain;
+                money += moneyGain;
+                UpdateUI(); // Update the UI with new money value
             }
-            yield return new WaitForSeconds(1f); // Fixed time from table
+
+            yield return new WaitForSeconds(1f); 
         }
     }
-
     private void UpdateUI()
     {
-        notorietyText.text = "Niveau de Notoriété: " + (currentLevel + 1);
+        notorietyText.text = "Niveau de Notoriété: " + currentLevel;
         moneyText.text = "Argent: " + money;
     }
 }

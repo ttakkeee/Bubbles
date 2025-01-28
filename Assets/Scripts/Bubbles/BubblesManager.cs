@@ -9,8 +9,8 @@ public class BubbleManager : MonoBehaviour
     [SerializeField] private float bubbleLifetime = 4f;
     [SerializeField] private GameObject bubblePrefab;
     [SerializeField] private RectTransform spawnArea;
-
-    //Bounds for spawning bubbles (in world space)
+    public NotorieteManager notorieteManager;
+    
     public Vector2 spawnAreaMin = new Vector2(-5, -5);
 
     public Vector2 spawnAreaMax = new Vector2(5, 5);
@@ -51,5 +51,18 @@ public class BubbleManager : MonoBehaviour
         GameObject bubble = Instantiate(bubblePrefab, spawnArea);
         bubble.transform.position = worldPos;
         Destroy(bubble, bubbleLifetime);
+        
+        StartCoroutine(WaitAndTriggerBubbleAutoDestroyed(bubbleLifetime));
+    }
+    
+    private IEnumerator WaitAndTriggerBubbleAutoDestroyed(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        // Trigger the BubbleAutoDestroyed method from the NotorieteManager
+        if (notorieteManager != null)
+        {
+            notorieteManager.BubbleAutoDestroyed();
+        }
     }
 }
