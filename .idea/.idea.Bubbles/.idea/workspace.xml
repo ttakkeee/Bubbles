@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60c08bf5-43d5-4f7f-a7c2-45c009df3d0b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bubbles/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bubbles/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Assets/Bulle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Assets/Bulle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bubbles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bubbles.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BubblesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BubblesManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BubblesManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BubblesManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BubblesManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BubblesManager.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -95,7 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1738053017821</updated>
       <workItem from="1738053021529" duration="1796000" />
-      <workItem from="1738058152732" duration="2944000" />
+      <workItem from="1738058152732" duration="3548000" />
+      <workItem from="1738077055135" duration="1927000" />
     </task>
     <servers />
   </component>
