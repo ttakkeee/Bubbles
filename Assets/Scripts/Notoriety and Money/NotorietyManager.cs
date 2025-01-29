@@ -36,7 +36,7 @@ public class NotorieteManager : MonoBehaviour
 
     private int currentNotoriety = 0;
     private int currentLevel = 0;
-    private int money = 0;
+    public int money = 0;
 
     void Start()
     {
