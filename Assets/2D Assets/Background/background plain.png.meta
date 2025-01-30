@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e3cfc05db84d6d94490ab2c579813102
+guid: a2298e49cf749554c9cf8f67fd22a2f2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7442363004759793781
-    second: garde dans icon_0
+      213: 8907735392660465052
+    second: background plain_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: garde dans icon_0
+      name: background plain_0
       rect:
         serializedVersion: 2
-        x: 141
-        y: 44
-        width: 268
-        height: 378
+        x: 0
+        y: 0
+        width: 1352
+        height: 764
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5706734b8b5984760800000000000000
-      internalID: 7442363004759793781
+      spriteID: c95a3b8f422ae9b70800000000000000
+      internalID: 8907735392660465052
       vertices: []
       indices: 
       edges: []

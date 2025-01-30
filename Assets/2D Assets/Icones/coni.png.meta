@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 08082f789fc104e4eb66b761577d23f7
+guid: 1c58f12bb4451d84aa8d3b92e4454da1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8448616803947569233
-    second: uiconceptcrop_0
+      213: -630304805565774083
+    second: coni_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: uiconceptcrop_0
+      name: coni_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 201
-        height: 380
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 150e0b278348f3570800000000000000
-      internalID: 8448616803947569233
+      spriteID: df6c70c6e15b047f0800000000000000
+      internalID: -630304805565774083
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      uiconceptcrop_0: 8448616803947569233
+      coni_0: -630304805565774083
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
